@@ -1,2 +1,4 @@
+from mcp_windows.main import mcp
+
 def main() -> None:
-    print("Hello from mcp-windows!")
+    mcp.run("stdio")

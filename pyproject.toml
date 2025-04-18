@@ -7,7 +7,14 @@ authors = [
     { name = "TerminalMan", email = "84923604+SecretiveShell@users.noreply.github.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastmcp>=2.2.0",
+    "mcp>=1.6.0",
+    "winrt-runtime>=3.1.0",
+    "winrt-windows-foundation>=3.1.0",
+    "winrt-windows-foundation-collections>=3.1.0",
+    "winrt-windows-media-control>=3.1.0",
+]
 
 [project.scripts]
 mcp-windows = "mcp_windows:main"
