@@ -17,6 +17,7 @@ add this to your claude mcp config:
     }
   }
 }
+```
 
 or locally:
 
