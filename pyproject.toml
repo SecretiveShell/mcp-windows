@@ -1,0 +1,17 @@
+[project]
+name = "mcp-windows"
+version = "0.0.1" 
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "TerminalMan", email = "84923604+SecretiveShell@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+mcp-windows = "mcp_windows:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
