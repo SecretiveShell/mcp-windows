@@ -10,6 +10,7 @@ requires-python = ">=3.13"
 dependencies = [
     "fastmcp>=2.2.0",
     "mcp>=1.6.0",
+    "pillow>=11.2.1",
     "psutil>=7.0.0",
     "pywin32>=310",
     "winrt-runtime>=3.1.0",

@@ -6,6 +6,7 @@ from mcp_windows.notifications import mcp as notifications_mcp
 from mcp_windows.window_management import mcp as window_management_mcp
 from mcp_windows.monitors import mcp as monitors_mcp
 from mcp_windows.clipboard import mcp as clipboard_mcp
+from mcp_windows.screenshot import mcp as screenshot_mcp
 
 sep = environ.get("FASTMCP_TOOL_SEPARATOR", "_")
 
@@ -18,3 +19,4 @@ mcp.mount("notifications", notifications_mcp, tool_separator=sep)
 mcp.mount("window_management", window_management_mcp, tool_separator=sep)
 mcp.mount("monitors", monitors_mcp, tool_separator=sep)
 mcp.mount("clipboard", clipboard_mcp, tool_separator=sep)
+mcp.mount("screenshot", screenshot_mcp, tool_separator=sep)
