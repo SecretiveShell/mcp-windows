@@ -1,7 +1,7 @@
 [project]
 name = "mcp-windows"
-version = "0.0.1" 
-description = "Add your description here"
+version = "0.1.0" 
+description = "MCP server for the windows API."
 readme = "README.md"
 authors = [
     { name = "TerminalMan", email = "84923604+SecretiveShell@users.noreply.github.com" }
@@ -29,3 +29,10 @@ mcp-windows = "mcp_windows:main"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[project.urls]
+Homepage = "https://github.com/SecretiveShell/mcp-windows"
+Documentation = "https://github.com/SecretiveShell/mcp-windows"
+Repository = "https://github.com/SecretiveShell/mcp-windows.git"
+Issues = "https://github.com/SecretiveShell/mcp-windows/issues"
+Changelog = "https://github.com/SecretiveShell/mcp-windows/commits/master/"

@@ -44,6 +44,8 @@ or locally:
 - get_media_sessions
 - pause
 - play
+- next
+- previous
 
 ### Notifications
 
@@ -57,10 +59,29 @@ or locally:
 - close_window
 - minimize_window
 
+### screenshot
+
+- screenshot_window
+
 ### Monitors
 
 - sleep_monitors
 - wake_monitors
+
+### Theme
+
+- set_theme_mode (light, dark)
+- get_theme_mode
+
+### Start Menu
+
+- open_file
+- open_url
+
+### Clipboard
+
+- get_clipboard
+- set_clipboard
 
 ## License
 
