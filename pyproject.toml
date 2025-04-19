@@ -18,6 +18,8 @@ dependencies = [
     "winrt-windows-foundation>=3.1.0",
     "winrt-windows-foundation-collections>=3.1.0",
     "winrt-windows-media-control>=3.1.0",
+    "winrt-windows-storage>=3.1.0",
+    "winrt-windows-system>=3.1.0",
     "winrt-windows-ui-notifications>=3.1.0",
 ]
 

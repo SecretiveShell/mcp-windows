@@ -8,6 +8,7 @@ from mcp_windows.monitors import mcp as monitors_mcp
 from mcp_windows.clipboard import mcp as clipboard_mcp
 from mcp_windows.screenshot import mcp as screenshot_mcp
 from mcp_windows.theme import mcp as theme_mcp
+from mcp_windows.startmenu import mcp as startmenu_mcp
 
 sep = environ.get("FASTMCP_TOOL_SEPARATOR", "_")
 
@@ -22,3 +23,4 @@ mcp.mount("monitors", monitors_mcp, tool_separator=sep)
 mcp.mount("clipboard", clipboard_mcp, tool_separator=sep)
 mcp.mount("screenshot", screenshot_mcp, tool_separator=sep)
 mcp.mount("theme", theme_mcp, tool_separator=sep)
+mcp.mount("startmenu", startmenu_mcp, tool_separator=sep)

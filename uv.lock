@@ -193,6 +193,8 @@ dependencies = [
     { name = "winrt-windows-foundation" },
     { name = "winrt-windows-foundation-collections" },
     { name = "winrt-windows-media-control" },
+    { name = "winrt-windows-storage" },
+    { name = "winrt-windows-system" },
     { name = "winrt-windows-ui-notifications" },
 ]
 
@@ -208,6 +210,8 @@ requires-dist = [
     { name = "winrt-windows-foundation", specifier = ">=3.1.0" },
     { name = "winrt-windows-foundation-collections", specifier = ">=3.1.0" },
     { name = "winrt-windows-media-control", specifier = ">=3.1.0" },
+    { name = "winrt-windows-storage", specifier = ">=3.1.0" },
+    { name = "winrt-windows-system", specifier = ">=3.1.0" },
     { name = "winrt-windows-ui-notifications", specifier = ">=3.1.0" },
 ]
 
@@ -555,6 +559,34 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/34/5a/a6a8b0fd921206ef070bb718da092e68c74b94d14627d63c40379c6e8080/winrt_windows_media_control-3.1.0-cp313-cp313-win32.whl", hash = "sha256:0b7d8917b742d22692bcd27294f6f3f358192a546131a60fc709d1d082bfa02d", size = 60700 },
     { url = "https://files.pythonhosted.org/packages/6d/b8/ba2d4c413fcd74260fc7722da4057ccc1dc76586fd11ea4bd61c2f64063b/winrt_windows_media_control-3.1.0-cp313-cp313-win_amd64.whl", hash = "sha256:88219a29db06a6fb3392d52af04bb36b2267192f211dce0e1522dfcf9228e380", size = 64100 },
     { url = "https://files.pythonhosted.org/packages/11/3a/fbd05ed7057613cf605f7eb0dab05d112d3d4ac473df443467fdebb880bf/winrt_windows_media_control-3.1.0-cp313-cp313-win_arm64.whl", hash = "sha256:ebaa57ab082c0e95eec05f932fe53916000c8e73effb67b8d63936b294b4fa96", size = 58813 },
+]
+
+[[package]]
+name = "winrt-windows-storage"
+version = "3.1.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "winrt-runtime" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/8a/f4/bfa6375633ad4fc3b6dc4feedf641461db1e035d78875baca5caff83f3d5/winrt_windows_storage-3.1.0.tar.gz", hash = "sha256:59f75cdfa12146ab0a35ac7cd861ba39d471b752d7c182e9812a4d957f019a3d", size = 48226 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ce/44/1df4b295d5da9562552199768fad84f08e24d7145429a3ef3ffaf47927e6/winrt_windows_storage-3.1.0-cp313-cp313-win32.whl", hash = "sha256:cf575f718db8a42729a461d8eb7870501030ab8219ecaf55a0f0663914e0148b", size = 236832 },
+    { url = "https://files.pythonhosted.org/packages/d4/4b/2f0ee7d691aeb7eda9444292b934636adb1426a0326c600bf9e3d60690ab/winrt_windows_storage-3.1.0-cp313-cp313-win_amd64.whl", hash = "sha256:ac5a3d7db1cf36b533207cfb05ef2e22c09d9c5b4c8c8ceae5b4cedec2d14e3d", size = 261900 },
+    { url = "https://files.pythonhosted.org/packages/f0/fc/ee955abafe3b46c7dc9cafef82a31916b76e1d9201c32ff917ba5c86776d/winrt_windows_storage-3.1.0-cp313-cp313-win_arm64.whl", hash = "sha256:f6af035cfdbecbabaa06be6ef061535386824a724eb282c6dc4b7522ac76b63a", size = 256146 },
+]
+
+[[package]]
+name = "winrt-windows-system"
+version = "3.1.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "winrt-runtime" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/c4/f8/c446ec89a16d9dcbd8310b8e3fc0a3145add9c499e70f4a642524f1be77b/winrt_windows_system-3.1.0.tar.gz", hash = "sha256:baf089c672740734ddf12c99504d19e3395e2ff366bd483d2c0722a414067371", size = 37925 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/0b/7e/6380384ae6cfc2c1aa4c30920bb6da25fe7a2b9321d79f8457e92b46a007/winrt_windows_system-3.1.0-cp313-cp313-win32.whl", hash = "sha256:f3c9c6f73ee801a9063380662a8a02ead1ed78484f7fff620b7aaf140d97dad7", size = 213718 },
+    { url = "https://files.pythonhosted.org/packages/1a/68/e6d65b70a2edb8640b02e933ecb027b93432d5953dff2a628f70b6f560d9/winrt_windows_system-3.1.0-cp313-cp313-win_amd64.whl", hash = "sha256:0a008e0c05af6ae9a5ef930ae88f2ebec74c87ab8c68e280631782d158f39290", size = 227679 },
+    { url = "https://files.pythonhosted.org/packages/f9/3b/96ba1c1c9de07f578e2e33545dfbc0702f882584cccaf5634bc32609c18f/winrt_windows_system-3.1.0-cp313-cp313-win_arm64.whl", hash = "sha256:57226119cb3702cdd49f08431a0579ea67a89865a1b69e285befba36b0bf4409", size = 226608 },
 ]
 
 [[package]]
