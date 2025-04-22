@@ -10,6 +10,7 @@ from mcp_windows.screenshot import mcp as screenshot_mcp
 from mcp_windows.theme import mcp as theme_mcp
 from mcp_windows.startmenu import mcp as startmenu_mcp
 from mcp_windows.keyboard import mcp as keyboard_mcp
+from mcp_windows.audio import mcp as audio_mcp
 
 sep = environ.get("FASTMCP_TOOL_SEPARATOR", "_")
 
@@ -26,3 +27,4 @@ mcp.mount("screenshot", screenshot_mcp, tool_separator=sep)
 mcp.mount("theme", theme_mcp, tool_separator=sep)
 mcp.mount("startmenu", startmenu_mcp, tool_separator=sep)
 mcp.mount("keyboard", keyboard_mcp, tool_separator=sep)
+mcp.mount("audio", audio_mcp, tool_separator=sep)

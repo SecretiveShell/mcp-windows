@@ -8,10 +8,12 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "comtypes>=1.4.10",
     "fastmcp>=2.2.0",
     "mcp>=1.6.0",
     "pillow>=11.2.1",
     "psutil>=7.0.0",
+    "pycaw>=20240210",
     "pywin32>=310",
     "winrt-runtime>=3.1.0",
     "winrt-windows-data-xml-dom>=3.1.0",
